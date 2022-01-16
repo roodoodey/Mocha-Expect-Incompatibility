@@ -1,0 +1,32 @@
+{
+  "name": "mocha-expect-incompatibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha app.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roodoodey/Mocha-Expect-Incompatibility.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "roodoodey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roodoodey/Mocha-Expect-Incompatibility/issues"
+  },
+  "homepage": "https://github.com/roodoodey/Mocha-Expect-Incompatibility#readme",
+  "devDependencies": {
+    "expect": "^27.4.6",
+    "mocha": "^9.1.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
